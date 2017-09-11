@@ -11,4 +11,8 @@ public class PlayDohCircle
 	{
 		this.size = 5;
 	}
+	public PlayDohCircle(int size)
+	{
+		this.size = size;
+	}
 }

@@ -2,17 +2,25 @@ package stupid.controller;
 
 import java.util.Scanner;
 import stupid.model.PlayDohCircle;
+import stupid.model.PlayDohX;
 
 public class StupidController
 {
 	public void start()
 	{
+		//
 		PlayDohCircle firstCircle = new PlayDohCircle();
+		
 		PlayDohCircle secondCircle;
 		secondCircle = new PlayDohCircle();
-		PlayDohCircle thirdCircle;
-		thirdCircle = new PlayDohCircle():
 		
+		PlayDohCircle thirdCircle;
+		thirdCircle = new PlayDohCircle(10);
+		
+		PlayDohX firstX = new PlayDohX();
+		
+		PlayDohX secondX; 
+		secondX= new PlayDohX();
 		
 		System.out.println("My name is Brittney, I like the color green.");
 		System.out.println("I love to read books.");
