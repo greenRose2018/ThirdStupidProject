@@ -13,4 +13,10 @@ public class PlayDohX
 	{
 		this.zebra = size;
 	}
+	
+	public String toString()
+	{
+		String test = "this is my size " + zebra;
+		return test;
+	}
 }
