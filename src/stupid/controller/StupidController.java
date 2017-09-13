@@ -47,6 +47,16 @@ public class StupidController
 		System.out.println("How old are you?");
 		int ageAnswer = firstScanner.nextInt();
 		System.out.println("you said that you are " + ageAnswer + " years old.");
+		
+		PlayDohCircle changeCircle = new PlayDohCircle();
+		System.out.println("Here is the circle befor I change it");
+		System.out.println(changeCircle);
+		System.out.println("Type in a new size - use numbers please.");
+		int mySize = firstScanner.nextInt();
+		changeCircle.setSize(mySize);
+		System.out.println("now look at the circle");
+		System.out.println(changeCircle);
+		
 	}
 
 }
